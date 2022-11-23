@@ -2,7 +2,7 @@ import { defineNuxtConfig } from 'nuxt/config';
 
 export default defineNuxtConfig({
   srcDir: 'src',
-  target: 'static',
+  target: 'server',
   build: {
     transpile: ['vuetify'],
   },

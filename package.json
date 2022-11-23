@@ -30,7 +30,7 @@
     "@nuxtjs/color-mode": "^3.1.8",
     "@nuxtjs/google-fonts": "^3.0.0-1",
     "@nuxtjs/tailwindcss": "^6.1.1",
-    "flowbite": "^1.5.4",
+    "flowbite": "^1.5.3",
     "nuxt": "3.0.0-rc.12",
     "postcss-normalize-whitespace": "^5.1.1",
     "sass": "^1.56.1",

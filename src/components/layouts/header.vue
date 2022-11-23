@@ -1,16 +1,21 @@
 <template>
-  <div class="tw-px-2 sm:tw-px-4 tw-py-2.5">
-    <div class="tw-flex tw-flex-wrap tw-justify-between tw-mx-auto">
-      <div class="tw-flex lg:tw-order-3">
+  <div class="tw-px-2 sm:tw-px-4 tw-py-2.5 tw-shadow">
+    <div class="tw-flex tw-flex-wrap tw-justify-between tw-mx-auto tw-text-very-dark-magenta dark:tw-text-white">
+      <div class="tw-flex tw-order-1">
+        <NuxtLink class="tw-flex tw-items-center btn-navbar-icon" to="/" aria-label="'Redirect to home page">
+          <span class="tw-self-center tw-text-xl tw-font-semibold tw-whitespace-nowrap">Company</span>
+        </NuxtLink>
+      </div>
+      <div class="tw-flex tw-order-2">
         <button
-          class="tw-inline-flex tw-items-center tw-p-2 tw-rounded-lg"
+          class="tw-inline-flex tw-items-center tw-p-2 tw-rounded-lg focus:tw-outline-none focus:tw-ring-inset focus:tw-ring-2"
           type="button"
           aria-label="Toggle theme mode button"
           @click="setColor($colorMode.preference == 'dark' ? 'light' : 'dark')"
         >
           <svg
             v-if="$colorMode.value == 'dark'"
-            class="tw-h-6 tw-w-6 tw-text-white"
+            class="tw-h-6 tw-w-6"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 20 20"
             fill="currentColor"
@@ -18,8 +23,8 @@
             <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z" />
           </svg>
           <svg
-            v-else
-            class="tw-h-6 tw-w-6 tw-text-very-dark-magenta"
+            v-else-if="$colorMode.value == 'light'"
+            class="tw-h-6 tw-w-6"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 20 20"
             fill="currentColor"

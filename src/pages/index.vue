@@ -47,22 +47,6 @@
       <FormsRating />
       <FormsTextarea />
     </div>
-    <div>
-      <h2 class="tw-text-center tw-text-3xl tw-font-semibold tw-text-very-dark-magenta dark:tw-text-white">
-        Contact us
-      </h2>
-      <p class="tw-text-center tw-text-lg tw-font-light tw-text-very-dark-magenta dark:tw-text-white">
-        Let's create something together!
-      </p>
-      <div class="lg:tw-grid tw-grid-cols-12 tw-bg-light-grayish-magenta dark:tw-bg-dark-grayish-magenta">
-        <div class="tw-col-span-6 tw-flex tw-self-center tw-justify-center">
-          <img class="tw-h-60" src="~/assets/unknown.png" alt="Support image" />
-        </div>
-        <div class="tw-col-start-7 tw-col-span-6">
-          <FormsContact />
-        </div>
-      </div>
-    </div>
   </div>
 </template>
 <script lang="ts">
