@@ -1,17 +1,17 @@
 <template>
   <div>
     <div
-      class="lg:flex items-center justify-around p-4 rounded-lg bg-light-grayish-magenta dark:bg-dark-grayish-magenta"
+      class="lg:tw-flex tw-items-center tw-justify-around tw-p-4 tw-rounded-lg tw-bg-light-grayish-magenta dark:tw-bg-dark-grayish-magenta"
     >
-      <div class="flex justify-center">
+      <div class="tw-flex tw-justify-center">
         <img src="../../assets/svg/icon-star.svg" alt="Shining Start one" />
         <img src="../../assets/svg/icon-star.svg" alt="Shining Start two" />
         <img src="../../assets/svg/icon-star.svg" alt="Shining Start three" />
         <img src="../../assets/svg/icon-star.svg" alt="Shining Start four" />
         <img src="../../assets/svg/icon-star.svg" alt="Shining Start five" />
       </div>
-      <div class="flex justify-center">
-        <p class="font-semibold text-very-dark-magenta dark:text-white">
+      <div class="tw-flex tw-justify-center">
+        <p class="tw-font-semibold tw-text-very-dark-magenta dark:tw-text-white">
           {{ text }}
         </p>
       </div>

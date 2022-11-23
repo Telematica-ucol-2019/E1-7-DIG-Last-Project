@@ -1,7 +1,7 @@
 <template>
-  <div class="flex flex-col h-screen justify-between">
+  <div class="tw-flex tw-flex-col tw-h-screen tw-justify-between">
     <header>
-      <LayoutsHeader class="sticky top-0 z-10" />
+      <LayoutsHeader class="tw-sticky tw-top-0 tw-z-10" />
     </header>
     <main>
       <NuxtPage />

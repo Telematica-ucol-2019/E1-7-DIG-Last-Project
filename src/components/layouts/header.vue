@@ -1,27 +1,25 @@
 <template>
-  <div class="px-2 sm:px-4 py-2.5">
-    <div class="flex flex-wrap justify-between mx-auto">
-      <div class="flex lg:order-3">
+  <div class="tw-px-2 sm:tw-px-4 tw-py-2.5">
+    <div class="tw-flex tw-flex-wrap tw-justify-between tw-mx-auto">
+      <div class="tw-flex lg:tw-order-3">
         <button
-          class="inline-flex items-center p-2 rounded-lg text-very-dark-magenta dark:text-white"
+          class="tw-inline-flex tw-items-center tw-p-2 tw-rounded-lg"
           type="button"
           aria-label="Toggle theme mode button"
           @click="setColor($colorMode.preference == 'dark' ? 'light' : 'dark')"
         >
           <svg
             v-if="$colorMode.value == 'dark'"
-            class="h-6 w-6"
+            class="tw-h-6 tw-w-6 tw-text-white"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 20 20"
             fill="currentColor"
           >
-            <path
-              d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"
-            />
+            <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z" />
           </svg>
           <svg
-            v-else-if="$colorMode.value == 'light'"
-            class="h-6 w-6"
+            v-else
+            class="tw-h-6 tw-w-6 tw-text-very-dark-magenta"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 20 20"
             fill="currentColor"

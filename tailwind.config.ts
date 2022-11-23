@@ -1,5 +1,6 @@
 module.exports = {
   content: ['./src/**/*.{vue,js,ts}', './nuxt.config.{js,ts}', './node_modules/flowbite/**/*.js'],
+  prefix: 'tw-',
   darkMode: 'class',
   theme: {
     extend: {
@@ -18,4 +19,5 @@ module.exports = {
       },
     },
   },
+  plugins: [require('flowbite/plugin')],
 };

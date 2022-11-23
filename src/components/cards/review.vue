@@ -1,21 +1,21 @@
 <template>
   <div>
-    <div class="p-10 space-y-5 bg-very-dark-magenta dark:bg-white rounded-lg">
-      <div class="grid grid-cols-8 items-center justify-center space-x-5">
-        <div class="col-span-1">
-          <img class="rounded-full" :src="photo" :alt="`${name}'s picture`" />
+    <div class="tw-p-10 tw-space-y-5 tw-bg-very-dark-magenta dark:tw-bg-white tw-rounded-lg">
+      <div class="tw-grid tw-grid-cols-8 tw-items-center tw-justify-center tw-space-x-5">
+        <div class="tw-col-span-1">
+          <img class="tw-rounded-full" :src="photo" :alt="`${name}'s picture`" />
         </div>
-        <div class="col-span-7">
-          <p class="font-semibold text-white dark:text-very-dark-magenta">
+        <div class="tw-col-span-7">
+          <p class="tw-font-semibold tw-text-white dark:tw-text-very-dark-magenta">
             {{ name }}
           </p>
-          <p class="font-light text-soft-violet">
+          <p class="tw-font-light tw-text-soft-violet">
             {{ charge }}
           </p>
         </div>
       </div>
-      <div class="items-center justify-center space-x-5">
-        <p class="text-white dark:text-very-dark-magenta">"{{ review }}"</p>
+      <div class="tw-items-center tw-justify-center tw-space-x-5">
+        <p class="tw-text-white dark:tw-text-very-dark-magenta">"{{ review }}"</p>
       </div>
     </div>
   </div>

@@ -3,10 +3,14 @@ import { defineNuxtConfig } from 'nuxt/config';
 export default defineNuxtConfig({
   srcDir: 'src',
   target: 'static',
+  build: {
+    transpile: ['vuetify'],
+  },
   buildModules: [
     [
       '@nuxtjs/color-mode',
       {
+        classPrefix: 'tw-',
         classSuffix: '',
         preference: 'light',
         fallback: 'dark',
@@ -35,6 +39,12 @@ export default defineNuxtConfig({
   ],
   typescript: {
     strict: true,
+  },
+  css: ['vuetify/lib/styles/main.sass', '@mdi/font/css/materialdesignicons.css'],
+  vite: {
+    define: {
+      'process.env.DEBUG': false,
+    },
   },
   app: {
     head: {
