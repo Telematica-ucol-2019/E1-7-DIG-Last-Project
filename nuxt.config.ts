@@ -4,7 +4,7 @@ export default defineNuxtConfig({
   srcDir: 'src',
   target: 'server',
   build: {
-    transpile: ['vuetify'],
+    transpile: ['vuetify', 'primevue'],
   },
   buildModules: [
     [
@@ -40,7 +40,13 @@ export default defineNuxtConfig({
   typescript: {
     strict: true,
   },
-  css: ['vuetify/lib/styles/main.sass', '@mdi/font/css/materialdesignicons.css'],
+  css: [
+    'vuetify/lib/styles/main.sass',
+    '@mdi/font/css/materialdesignicons.css',
+    'primevue/resources/themes/saga-blue/theme.css',
+    'primevue/resources/primevue.css',
+    'primeicons/primeicons.css',
+  ],
   vite: {
     define: {
       'process.env.DEBUG': false,
