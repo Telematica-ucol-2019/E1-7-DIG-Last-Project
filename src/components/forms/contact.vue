@@ -24,7 +24,7 @@
             name="floating_phone"
             ref="floating_phone"
             id="floating_phone"
-            type="text"
+            type="number"
             placeholder=" "
             required
           />
@@ -40,7 +40,7 @@
             name="floating_email"
             ref="floating_email"
             id="floating_email"
-            type="text"
+            type="email"
             placeholder=" "
             required
           />
@@ -79,4 +79,13 @@
   </div>
 </template>
 <script lang="ts"></script>
-<style></style>
+<style>
+.tw-text-white {
+  --tw-text-opacity: 1;
+  color: rgba(255, 255, 255, var(--tw-text-opacity));
+}
+.tw-text-very-dark-magenta {
+  --tw-text-opacity: 1;
+  color: rgba(55, 12, 83, var(--tw-text-opacity));
+}
+</style>

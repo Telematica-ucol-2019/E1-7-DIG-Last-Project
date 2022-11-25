@@ -5,7 +5,7 @@
         >Your message</label
       >
       <textarea
-        class="form-control tw-block tw-w-full tw-px-3 tw-py-1.5 tw-text-base tw-font-normal tw-bg-clip-padding tw-border tw-border-solid tw-rounded tw-transition tw-ease-in-out tw-m-0 focus:tw-outline-none tw-bg-white tw-border-dark-grayish-magenta tw-text-very-dark-magenta focus:tw-border-very-dark-magenta"
+        class="form-control tw-block tw-w-full tw-max-h-40 tw-px-3 tw-py-1.5 tw-text-base tw-font-normal tw-bg-clip-padding tw-border tw-border-solid tw-rounded tw-transition tw-ease-in-out tw-m-0 focus:tw-outline-none tw-bg-white tw-border-dark-grayish-magenta tw-text-very-dark-magenta focus:tw-border-very-dark-magenta"
         id="reviewMessage"
         rows="3"
         placeholder="I think..."
@@ -24,3 +24,13 @@
 <script>
 export default {};
 </script>
+<style>
+.tw-text-white {
+  --tw-text-opacity: 1;
+  color: rgba(255, 255, 255, var(--tw-text-opacity));
+}
+.tw-text-very-dark-magenta {
+  --tw-text-opacity: 1;
+  color: rgba(55, 12, 83, var(--tw-text-opacity));
+}
+</style>

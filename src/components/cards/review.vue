@@ -9,7 +9,7 @@
           <p class="tw-font-semibold tw-text-white dark:tw-text-very-dark-magenta">
             {{ name }}
           </p>
-          <p class="tw-font-light tw-text-soft-violet">
+          <p class="tw-font-light tw-text-soft-violet-light dark:tw-text-soft-violet-dark">
             {{ charge }}
           </p>
         </div>

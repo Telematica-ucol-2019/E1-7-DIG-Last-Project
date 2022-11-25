@@ -1,6 +1,6 @@
 <template>
   <footer class="tw-bg-light-grayish-magenta dark:tw-bg-dark-grayish-magenta">
-    <div class="tw-pt-10 max-lg:tw-m-14 lg:tw-mx-32 lg:tw-m-14">
+    <div class="tw-pt-10 max-lg:tw-mx-14 lg:tw-mx-14 tw-space-y-5">
       <h2 class="tw-text-center tw-text-3xl tw-font-semibold tw-text-very-dark-magenta dark:tw-text-white">
         Contact us
       </h2>
@@ -9,14 +9,16 @@
       </p>
       <div class="lg:tw-grid tw-grid-cols-12">
         <div class="tw-col-span-6 tw-flex tw-self-center tw-justify-center">
-          <img class="tw-h-60" src="~/assets/unknown.png" alt="Support image" />
+          <img class="object-scale-down tw-h-60" src="~/assets/unknown.png" alt="Support image" />
         </div>
-        <div class="tw-col-start-7 tw-col-span-6">
+        <div class="tw-col-start-8 tw-col-span-6">
           <FormsContact />
         </div>
       </div>
     </div>
-    <div class="tw-py-4 tw-px-4 md:tw-flex md:tw-items-center md:tw-justify-between tw-shadow">
+    <div
+      class="tw-py-4 tw-px-4 md:tw-flex md:tw-items-center md:tw-justify-between tw-shadow tw-border-t-very-dark-magenta dark:tw-border-t-white tw-border-t-2"
+    >
       <div class="tw-flex tw-my-2 max-md:tw-justify-center">
         <span class="tw-text-sm tw-font-medium tw-text-very-dark-magenta dark:tw-text-white sm:tw-text-center"
           >© {{ new Date().getFullYear() }} Company. All Rights Reserved.

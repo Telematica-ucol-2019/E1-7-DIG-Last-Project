@@ -40,7 +40,7 @@
         review="Put an order with this company and can only praise them for the very high standard. Will definitely use them again and recommend them to everyone!"
       />
     </div>
-    <div class="tw-text-center p-5">
+    <div class="tw-text-center py-5">
       <h2 class="tw-text-3xl tw-font-semibold tw-text-very-dark-magenta dark:tw-text-white">
         We want to hear about your experience!
       </h2>

@@ -1,9 +1,11 @@
 <template>
-  <div class="tw-px-2 sm:tw-px-4 tw-py-2.5 tw-shadow">
+  <div
+    class="tw-px-2 sm:tw-px-4 tw-py-2.5 tw-shadow tw-border-b-very-dark-magenta dark:tw-border-b-white tw-border-b-2"
+  >
     <div class="tw-flex tw-flex-wrap tw-justify-between tw-mx-auto tw-text-very-dark-magenta dark:tw-text-white">
       <div class="tw-flex tw-order-1">
-        <NuxtLink class="tw-flex tw-items-center btn-navbar-icon" to="/" aria-label="'Redirect to home page">
-          <span class="tw-self-center tw-text-xl tw-font-semibold tw-whitespace-nowrap">Company</span>
+        <NuxtLink class="tw-flex tw-items-center btn-navbar-icon" to="/">
+          <span class="tw-p-2 tw-self-center tw-text-xl tw-font-semibold tw-whitespace-nowrap">Company</span>
         </NuxtLink>
       </div>
       <div class="tw-flex tw-order-2">

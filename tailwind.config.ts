@@ -6,8 +6,11 @@ module.exports = {
     extend: {
       colors: {
         'very-dark-magenta': '#502050',
-        'soft-violet': '#ee68a4',
-        'dark-grayish-magenta': '#937b92',
+        'soft-violet': {
+          dark: '#A91B5B',
+          light: '#f3afce'
+        },
+        'dark-grayish-magenta': '#5F335B',
         'light-grayish-magenta': '#f7f2f7',
         white: '#ffffff',
       },
