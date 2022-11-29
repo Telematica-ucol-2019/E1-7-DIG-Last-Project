@@ -17,3 +17,10 @@ export default {
   }),
 };
 </script>
+<style>
+.p-rating {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+</style>

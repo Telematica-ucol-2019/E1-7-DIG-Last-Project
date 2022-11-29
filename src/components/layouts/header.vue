@@ -12,7 +12,7 @@
         <button
           class="tw-inline-flex tw-items-center tw-p-2 tw-rounded-lg focus:tw-outline-none focus:tw-ring-inset focus:tw-ring-2"
           type="button"
-          aria-label="Toggle theme mode button"
+          aria-label="Toggle theme"
           @click="setColor($colorMode.preference == 'dark' ? 'light' : 'dark')"
         >
           <svg
