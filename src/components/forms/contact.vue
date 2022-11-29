@@ -1,5 +1,5 @@
 <template>
-  <div class="tw-bg-very-dark-magenta dark:tw-bg-white tw-m-10 tw-rounded-lg">
+  <div class="tw-bg-very-dark-magenta dark:tw-bg-white lg:tw-m-10 max-lg:tw-my-6 tw-rounded-lg">
     <form class="tw-p-10">
       <div class="tw-relative tw-z-0 tw-mb-6 tw-w-full tw-group tw-border-dark-grayish-magenta tw-border-b-2">
         <input
@@ -17,7 +17,7 @@
           >Full name</label
         >
       </div>
-      <div class="tw-grid tw-grid-cols-2 tw-gap-6">
+      <div class="lg:tw-grid lg:tw-grid-cols-2 tw-gap-6">
         <div class="tw-relative tw-z-0 tw-mb-6 tw-w-full tw-group tw-border-dark-grayish-magenta tw-border-b-2">
           <input
             class="tw-block tw-py-2.5 tw-px-0 tw-w-full tw-text-sm tw-text-white tw-bg-transparent dark:tw-text-very-dark-magenta tw-appearance-none focus:tw-text-white dark:focus:tw-text-very-dark-magenta tw-border-white dark:tw-border-very-dark-magenta focus:tw-border-white dark:focus:tw-border-very-dark-magenta focus:tw-outline-none focus:tw-ring-0 tw-peer"
