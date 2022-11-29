@@ -33,6 +33,8 @@
     "flowbite": "^1.5.3",
     "nuxt": "3.0.0-rc.12",
     "postcss-normalize-whitespace": "^5.1.1",
+    "primeicons": "^6.0.1",
+    "primevue": "^3.20.0",
     "sass": "^1.56.1",
     "vuetify": "^3.0.1"
   }

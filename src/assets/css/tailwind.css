@@ -5,3 +5,21 @@
 body {
   @apply tw-bg-white dark:tw-bg-very-dark-magenta;
 }
+
+/* Width */
+::-webkit-scrollbar {
+  background: #202225;
+  width: 10px;
+  height: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  @apply tw-bg-soft-violet-light dark:tw-bg-soft-violet-dark;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  @apply tw-bg-very-dark-magenta dark:tw-bg-white;
+  border-radius: 100px;
+}

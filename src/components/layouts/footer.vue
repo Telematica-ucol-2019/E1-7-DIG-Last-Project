@@ -1,17 +1,19 @@
 <template>
   <footer class="tw-bg-light-grayish-magenta dark:tw-bg-dark-grayish-magenta">
-    <div class="tw-pt-10 max-lg:tw-mx-14 lg:tw-mx-14 tw-space-y-5">
-      <h2 class="tw-text-center tw-text-3xl tw-font-semibold tw-text-very-dark-magenta dark:tw-text-white">
-        Contact us
-      </h2>
-      <p class="tw-text-center tw-text-lg tw-font-light tw-text-very-dark-magenta dark:tw-text-white">
-        Let's create something together!
-      </p>
+    <div class="tw-pt-8 max-lg:tw-mx-14 lg:tw-mx-14 max-lg:tw-space-y-5">
+      <div>
+        <h2 class="tw-text-center tw-text-3xl tw-font-semibold tw-text-very-dark-magenta dark:tw-text-white">
+          Contact us
+        </h2>
+        <p class="tw-text-center tw-text-lg tw-font-light tw-text-very-dark-magenta dark:tw-text-white">
+          Let's create something together!
+        </p>
+      </div>
       <div class="lg:tw-grid tw-grid-cols-12">
-        <div class="tw-col-span-6 tw-flex tw-self-center tw-justify-center">
-          <img class="object-scale-down tw-h-60" src="~/assets/unknown.png" alt="Support image" />
+        <div class="tw-col-start-2 tw-col-span-5 tw-flex tw-self-center tw-justify-center">
+          <img class="object-scale-down" src="~/assets/unknown.png" alt="Support image" width="300" height="300" />
         </div>
-        <div class="tw-col-start-8 tw-col-span-6">
+        <div class="tw-col-start-7 tw-col-span-5">
           <FormsContact />
         </div>
       </div>
